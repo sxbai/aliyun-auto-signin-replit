@@ -22,7 +22,7 @@ bash <(curl -s https://raw.githubusercontent.com/sxbai/aliyun-auto-signin-replit
 | SMTP       | SMTP 邮件      |   ✅    |
 | FeiShu     | 飞书群组机器人      |   ✅    |
 
-<summary>各推送渠道完整配置</summary>
+> 各推送渠道完整配置
 
 - 钉钉机器人
     - `app_key`: 机器人的 `appKey`
