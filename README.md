@@ -9,6 +9,7 @@ bash <(curl -s https://raw.githubusercontent.com/sxbai/aliyun-auto-signin-replit
 ## 首次搭建注意事项
 - 根目录下`config.ini`文件打开，添加你的阿里云盘32位Token，文件第一行`refresh_tokens = YOUR_REFRESH_TOKEN,ANOTHER_REFRESH_TOKEN_IF_YOU_HAVE`，意思就是多账号用英文的`,`隔开 ，最后效果就是这个样子`refresh_tokens = 第一个token,第二个token,第三个token`
 - `push_types =`签到结果推送,支持: dingtalk, serverchan, pushdeer, telegram, pushplus, smtp, feishu，同时使用多个推送方式请用英文逗号 (,) 分隔，不使用请留空。
+- 自动签到时间修改`config.yaml`文件，该文件设置`定时任务的cron表达式`可以设置每天几点执行签到任务，该cron指定的是格林尼治时间（UTC），如果需要换算成北京时间，要在该cron的基础上增加八小时得到北京时间。
 ## 推送渠道
 
 | 渠道名        | 渠道描述         | 本地 |
@@ -64,3 +65,7 @@ bash <(curl -s https://raw.githubusercontent.com/sxbai/aliyun-auto-signin-replit
 - FeiShu
     - `webhook`: 飞书群组机器人的 `webhook` 地址
     - [飞书自定义机器人指南](https://open.feishu.cn/document/ukTMukTMukTM/ucTM5YjL3ETO24yNxkjN)
+
+## 鸣谢
+- [Replit](https://github.com/replit)
+- [ImYrS](https://github.com/ImYrS/aliyun-auto-signin)
