@@ -11,15 +11,15 @@ bash <(curl -s https://raw.githubusercontent.com/sxbai/aliyun-auto-signin-replit
 - `push_types =`签到结果推送,支持: dingtalk, serverchan, pushdeer, telegram, pushplus, smtp, feishu，同时使用多个推送方式请用英文逗号 (,) 分隔，不使用请留空。
 ## 推送渠道
 
-| 渠道名        | 渠道描述         | 本地  | 本地 |
-|------------|--------------|:---:|:------:|
-| DingTalk   | 钉钉自定义机器人     |  ✅  |   ✅    |
-| ServerChan | Server 酱推送   |  ✅  |   ✅    |
-| PushDeer   | PushDeer     |  ✅  |   ✅    |
-| Telegram   | Telegram 机器人 |  ✅  |   ✅    |
-| PushPlus   | PlusPlus     |  ✅  |   ✅    |
-| SMTP       | SMTP 邮件      |  ✅  |   ✅    |
-| FeiShu     | 飞书群组机器人      |  ✅  |   ✅    |
+| 渠道名        | 渠道描述         | 本地 |
+|------------|--------------|:------:|
+| DingTalk   | 钉钉自定义机器人     |   ✅    |
+| ServerChan | Server 酱推送   |   ✅    |
+| PushDeer   | PushDeer     |   ✅    |
+| Telegram   | Telegram 机器人 |   ✅    |
+| PushPlus   | PlusPlus     |   ✅    |
+| SMTP       | SMTP 邮件      |   ✅    |
+| FeiShu     | 飞书群组机器人      |   ✅    |
 
 <summary>各推送渠道完整配置</summary>
 
