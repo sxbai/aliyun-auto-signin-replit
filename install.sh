@@ -9,7 +9,7 @@ unzip main.zip
 unzip alisign.zip
 mv aliyun-auto-signin-main/* .
 rm -rf aliyun-auto-signin-main/
-cp -r example.config.ini config.ini && cp -r app.py main.py
+cp -r example.config.ini config.ini
 pip install -r requirements.txt
 rm -rf example.config.ini
 rm -rf main.zip && rm -rf How-To-Use-Action.md
