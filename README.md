@@ -3,7 +3,6 @@
 # Aliyun Auto Signin On Replit
 
 ![GitHub release](https://img.shields.io/github/v/release/sxbai/aliyun-auto-signin-replit)
-![wakatime](https://wakatime.com/badge/user/92b8bbab-18e1-4e0c-af6d-082cc16c9d8a/project/0547bf5c-f66c-4798-ab89-96ddb017fef7.svg)
 
 项目用于replit自动实现阿里云盘的每日签到活动.  
 
